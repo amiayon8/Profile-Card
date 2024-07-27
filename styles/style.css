@@ -1,0 +1,129 @@
+@font-face {
+	font-family: 'Confine';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Confine'), url('Confine.otf') format('otf');
+}
+
+body {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+a{
+color: inherit;
+text-decoration: inherit;
+transition: transform .2s;
+cursor: pointer;
+}
+
+a::selection{
+color: inherit;
+background: none;
+}
+
+a:hover{
+color: inherit;
+text-decoration: inherit;
+transform: scale(1.03);
+}
+
+.card {
+	overflow: hidden;
+	width: 300px;
+	border-radius: 35px;
+	border: .5px solid red;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 !important;
+	background-color: #fffee7;
+-webkit-box-shadow: 0px 2px 13px 0px rgba(0,0,0,.3);
+-moz-box-shadow: 0px 2px 13px 0px rgba(0,0,0,.3);
+box-shadow: 0px 2px 13px 0px rgba(0,0,0,.3);
+}
+
+.wave-bg {
+	position: relative;
+	margin: 0 !important;
+
+}
+
+svg {
+	display: block;
+	/* Ensures no extra space is around the SVG */
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.person-img {
+	position: absolute;
+	bottom: -25%;
+	left: 27.5%;
+	border-radius: 50%;
+	width: 45%;
+	justify-self: center;
+	border: 0.1px solid #aaaaaa
+}
+
+.person-name {
+	margin-top: 15%;
+	margin-bottom: 0;
+	font-family: Confine;
+	font-size: 1.75em;
+	letter-spacing: 0px;
+}
+
+.person-job {
+	margin-top: 5px;
+	color: #444444;
+}
+
+.social-icons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-items: center;
+	justify-content: space-between;
+	margin: 5px 15%;
+}
+
+.social-icons i {
+	font-size: 1.5rem !important;
+}
+
+.card-text {
+	margin: 25px 10%;
+	font-size: 0.75em;
+}
+
+.action-buttons {
+	margin: 10px 10% 25px 10%;
+	display: flex;
+	justify-items: center;
+}
+
+.btn-pill {
+	border-radius: 30px;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.btn-pill:first-child {
+	margin-right: 5px;
+	color: #ffffff;
+	background: #E04088;
+}
+
+.btn-pill:last-child {
+	margin-left: 5px;
+	background: none;
+	color: #666666;
+	border: 1.5px solid #40ade0;
+}
