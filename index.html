@@ -10,7 +10,7 @@
    <body>
       <div class="card">
          <div class="wave-bg">
-            <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 690" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+            <svg id="svg" viewBox="0 0 1440 690" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
                <style>
                   .path-0{
                   animation:pathAnim-0 4s;
@@ -109,19 +109,24 @@
          </div>
          <h2 class="person-name">Sarker Ayon</h2>
          <h5 class="person-job">Web Developer</h5>
-         <div class="social-icons">
-            <a href="#"><i class="fab fa-lg fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-lg fa-square-instagram"></i></a>
-            <a href="#"><i class="fab fa-lg fa-square-x-twitter"></i></a>
-            <a href="#"><i class="fab fa-lg fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-lg fa-telegram"></i></a>
-         </div>
-         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel augue quis mauris mattis luctus.</p>
+         <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://instagram.com/thenicedeveloper"><i class="fab fa-square-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-square-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://t.me/sarkerayon"><i class="fab fa-telegram"></i></a></li>
+         </ul>
+         <p class="card-text">Crafting seamless digital experiences with a focus on aesthetics and simplicity. Dedicated to creating solutions that reflect your unique identity and needs.</p>
          <div class="action-buttons">
-            <button class="btn-pill">Follow Me</button>
-            <button class="btn-pill">Contact Me</button>
+            <button class="btn-pill" onclick="goto('https://linktr.ee/amiayon')">Follow Me</button>
+            <button class="btn-pill" onclick="goto('tel:+8801234567890')">Contact Me</button>
          </div>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+         function goto(url){
+           window.location.href = url;
+         }
+      </script>
    </body>
 </html>
