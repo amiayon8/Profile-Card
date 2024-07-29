@@ -1,7 +1,10 @@
 # 🤷‍♀️ Profile Card 🤷‍♂️
-DEMO: 
-https://amiayon8.github.io/Profile-Card/
 <img src="https://raw.githubusercontent.com/amiayon8/Profile-Card/main/Demo.png" width="100%">
+<br>
+DEMO:
+<br>
+https://amiayon8.github.io/Profile-Card/
+
 
 ## 📚 Description 📚
 Our profile card template offers a sleek and modern design to showcase personal or professional information on any website. It’s perfect for developers, designers, and anyone looking to make a strong first impression online. This template is fully customizable and easy to integrate into your projects.
